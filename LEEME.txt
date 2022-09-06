@@ -1,0 +1,9 @@
+EL PROBLEMA DE LA MODA
+
+1. Implementa la función 'mode' del fichero 'program.py'.
+   La moda (en inglés, 'mode') es el valor que aparece más veces en una lista.
+
+2. Verifica la implementación. Tienes dos opciones:
+  - Desde PyCharm: Zona izquierda, botón derecho sobre 'test_program.py' y selecciona 'Run: Python tests in ...'
+  - Desde una terminal en el directorio de 'program.py' ejecuta:
+        python3 -m unittest test_program.py
