@@ -1,4 +1,4 @@
-from unittest import TestCase
+from unittest import TestCase, main
 from random import seed, randint
 from program import mode
 
@@ -26,3 +26,7 @@ class Test(TestCase):
         seed(42)
         p = create_problem(1000000)
         self.assertEqual((990, 1128), mode(p))
+
+
+if __name__ == "__main__":
+    main()
